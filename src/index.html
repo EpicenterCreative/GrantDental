@@ -42,26 +42,17 @@ eleventyNavigation:
 <section id="hero-1951">
     <div class="cs-container">
         <div class="cs-content">
-            <h2 class="cs-title">Smile Brighter.
+            <h2 class="cs-title-dark-background">Smile Brighter.
                 Live Better.
             </h2>
-            <p class="cs-text">
+            <p class="cs-text-dark-background">
                 My passion for food has brought many new, fun and delicious dishes to the table. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             </p>
-            <a class="cs-button-solid" href="">Our Menu</a>
-            <div class="cs-reviews">
-                <div class="cs-reviews-flex">
-                    <img class="cs-reviews-img" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hero-profile4.png" alt="icon" width="48" height="48">
-                    <img class="cs-reviews-img" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hero-profile1.png" alt="icon" width="48" height="48">
-                    <img class="cs-reviews-img" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hero-profile2.png" alt="icon" width="48" height="48">
-                    <img class="cs-reviews-img" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hero-profile3.png" alt="icon" width="48" height="48">
-                    <span class="cs-reviews-number">+4k</span>
-                </div>
-                <div class="cs-flex">
-                    <h3 class="cs-rating">Ratings<img class="cs-rating-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/lil-star.svg" alt="star" width="16" height="16" loading="lazy" decoding="async">5.0</h3>
-                    <p class="cs-reviews-text">Trusted by Clients From Worldwide</p>
-                </div>
-            </div>
+            <a class="cs-button-solid" href="">
+                Schedule an Appointment 
+                <i class="fa-solid fa-xl fa-circle-arrow-right"></i>
+
+            </a>
         </div>
         <div class="cs-image-group">
             <picture class="cs-picture cs-left">
@@ -253,9 +244,29 @@ eleventyNavigation:
     
 </section>
                                 
-                    
+ <!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
 
-    {% include 'components/cta.html' %}
+<section id="cta-51">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Book An Appointment Today!</h2>
+            <a class="cs-button-solid" href="">
+                Schedule an Appointment 
+                <i class="fa-solid fa-xl fa-circle-arrow-right"></i>
+
+            </a>
+        </div>
+    </div>
+    <!-- Background Image-->
+    <picture class="cs-picture">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets.jpg" alt="cabinets" width="1920" height="1280" aria-hidden="true">
+    </picture>
+</section>
+                                                   
 
 
 
