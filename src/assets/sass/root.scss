@@ -13,6 +13,7 @@
         --secondary: #001f3f;
         --secondaryLight: #001f3f;
         --headerColor: #1a1a1a;
+        --headerColor2: #FFFFFF;
         --bodyTextColor: #4e4b66;
         --bodyTextColorWhite: #fafbfc;
 
@@ -46,7 +47,7 @@
         font-size: var(--headerFontSize);
         line-height: 1.2em;
         font-weight: 900;
-        color: var(--headerColor);
+        color: var(--headerColor2);
         text-align: inherit;
     }
 

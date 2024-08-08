@@ -4,14 +4,30 @@
 <---            Hero            -->
 <--- -------------------------- -*/
 
+#hero-1951::before {
+    content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -100px;
+  height: 200px;
+  z-index: 1;
+  background: #FAF9F5;
+  transform: skewY(-4deg);
+}
+
+
 /* Mobile - 360px */
-@media only screen and (min-width: 0rem) {
+@media only screen and (min-width: 0rem) {    
     #hero-1951 {
         padding: var(--sectionPadding);
         position: relative;
         z-index: 1;
-        background-image: url("/assets/images/hero-background.svg");
-        background-size: cover;
+        background: #1B2127;
+        overflow: hidden;
+
+
+       
 
         .cs-container {
             width: 100%;
