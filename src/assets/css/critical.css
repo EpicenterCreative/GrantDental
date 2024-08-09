@@ -14,7 +14,7 @@
   transform: skewY(-4deg);
 }
 
-/* Mobile - 360px */
+/* Mobile - 360px X */
 @media only screen and (min-width: 0rem) {
   #hero-1951 {
     padding: var(--sectionPadding);
