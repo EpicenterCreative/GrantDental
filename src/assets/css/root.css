@@ -42,7 +42,6 @@
     color: var(--headerColor);
     text-align: inherit;
   }
-
   .cs-title-dark-background {
     position: relative;
     margin: 0 0 1rem 0;
@@ -53,7 +52,6 @@
     color: var(--headerColor2);
     text-align: inherit;
   }
-
   .cs-text {
     margin: 0;
     max-width: 40.625rem;
@@ -63,7 +61,6 @@
     color: var(--bodyTextColor);
     text-align: inherit;
   }
-
   .cs-text-dark-background {
     margin: 0;
     max-width: 40.625rem;
@@ -73,7 +70,6 @@
     color: var(--bodyTextColorWhite);
     text-align: inherit;
   }
-
   .cs-button-solid {
     z-index: 1;
     position: relative;
@@ -114,7 +110,6 @@
     display: none;
   }
 }
-
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   .cs-hide-on-mobile {
@@ -1264,5 +1259,6 @@
     background: #061623;
   }
 }
+
 
 /*# sourceMappingURL=root.css.map */
