@@ -25,6 +25,7 @@
   }
   .fa-solid {
     margin-left: 0.5em;
+    display: none;
   }
   #hero-1951 .cs-container {
     width: 100%;
@@ -175,7 +176,7 @@
   }
   #hero-1951 .cs-picture img {
     object-fit: cover;
-    object-position: left;
+    object-position: 20% 50%;
     top: 0;
     left: 0;
   }
@@ -212,6 +213,13 @@
   #hero-1951 .cs-reviews {
     text-align: left;
     flex-direction: row;
+  }
+  .fa-solid {
+    margin-left: 0.5em;
+    display: inline;
+  }
+  #hero-1951 .cs-picture img {
+    object-position: left;
   }
 }
 /* Small Desktop - 1024px */
